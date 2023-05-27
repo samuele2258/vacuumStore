@@ -3,6 +3,8 @@ export interface Product {
   name: string;
   price: number;
   description: string;
+  type: string;
+  availability: number;
 }
 export enum Tag {
   BSV = 'bsv',
@@ -13,63 +15,72 @@ export const products = [
     id: 1,
     name: 'BSV 33',
     price: 400,
-    description: 'Macchinario sottovuoto per ogni tipo di mercato',
+    description: 'professional vacuum machines fit for any type of use.',
     type: Tag.BSV,
+    availability: 0,
   },
   {
     id: 2,
     name: 'BSV 33S',
     price: 450,
-    description: 'Macchinario sottovuoto per ogni tipo di mercato',
+    description: 'professional vacuum machines fit for any type of use.',
     type: Tag.BSV,
+    availability: 1,
   },
   {
     id: 3,
     name: 'BSV 44',
     price: 2000,
-    description: 'Macchinario sottovuoto per ogni tipo di mercato',
+    description: 'professional vacuum machines fit for any type of use.',
     type: Tag.BSV,
+    availability: 1,
   },
   {
     id: 4,
     name: 'BSV 44S',
     price: 2000,
-    description: 'Macchinario sottovuoto per ogni tipo di mercato',
+    description: 'professional vacuum machines fit for any type of use.',
     type: Tag.BSV,
+    availability: 1,
   },
   {
     id: 5,
     name: 'BSV 45',
     price: 2000,
-    description: 'Macchinario sottovuoto per ogni tipo di mercato',
+    description: 'professional vacuum machines fit for any type of use.',
     type: Tag.BSV,
+    availability: 1,
   },
   {
     id: 6,
     name: 'BSV 45 DS',
     price: 2000,
-    description: 'Macchinario sottovuoto per ogni tipo di mercato',
+    description: 'professional vacuum machines fit for any type of use.',
     type: Tag.BSV,
+    availability: 1,
   },
   {
     id: 7,
     name: 'BSV 54',
     price: 2000,
-    description: 'Macchinario sottovuoto per ogni tipo di mercato',
+    description: 'professional vacuum machines fit for any type of use.',
     type: Tag.BSV,
+    availability: 1,
   },
   {
     id: 8,
     name: 'BSV 94',
     price: 2000,
-    description: 'Macchinario sottovuoto per ogni tipo di mercato',
+    description: 'professional vacuum machines fit for any type of use.',
     type: Tag.BSV,
+    availability: 1,
   },
   {
     id: 8,
     name: 'CSV 42',
     price: 2000,
-    description: 'Macchinario sottovuoto per ogni tipo di mercato',
+    description: 'professional vacuum machines fit for any type of use.',
     type: Tag.CSV,
+    availability: 1,
   },
 ];
