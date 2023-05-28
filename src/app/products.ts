@@ -33,7 +33,7 @@ export const products = [
     price: 2000,
     description: 'professional vacuum machines fit for any type of use.',
     type: Tag.BSV,
-    availability: 1,
+    availability: 6,
   },
   {
     id: 4,
@@ -49,7 +49,7 @@ export const products = [
     price: 2000,
     description: 'professional vacuum machines fit for any type of use.',
     type: Tag.BSV,
-    availability: 1,
+    availability: 7,
   },
   {
     id: 6,
@@ -76,7 +76,7 @@ export const products = [
     availability: 1,
   },
   {
-    id: 8,
+    id: 9,
     name: 'CSV 42',
     price: 2000,
     description: 'professional vacuum machines fit for any type of use.',
