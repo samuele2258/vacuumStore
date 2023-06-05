@@ -3,8 +3,19 @@
   font-size: 11px;
 }
 
-/*
-Copyright Google LLC. All Rights Reserved.
-Use of this source code is governed by an MIT-style license that
-can be found in the LICENSE file at https://angular.io/license
-*/
+.box{
+  justify-content: center;
+  display: flex;
+  flex-wrap: wrap;
+}
+.box  h3{
+  font-size: 1.6em;
+}
+.box p{font-size: 1em;}
+
+
+.box > div{
+  margin: 60px 120px;
+}
+
+.img-product{width: 320px;}

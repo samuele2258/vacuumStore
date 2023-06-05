@@ -5,6 +5,7 @@ export interface Product {
   description: string;
   type: string;
   availability: number;
+  img:string;
 }
 export enum Tag {
   BSV = 'bsv',
@@ -18,6 +19,7 @@ export const products = [
     description: 'professional vacuum machines fit for any type of use.',
     type: Tag.BSV,
     availability: 0,
+    img:'./assets/img/bsv-33-open-ico.png',
   },
   {
     id: 2,
@@ -26,6 +28,7 @@ export const products = [
     description: 'professional vacuum machines fit for any type of use.',
     type: Tag.BSV,
     availability: 1,
+    img:'./assets/img/bsv-33s-open-ico.png',
   },
   {
     id: 3,
@@ -34,6 +37,7 @@ export const products = [
     description: 'professional vacuum machines fit for any type of use.',
     type: Tag.BSV,
     availability: 6,
+    img:'./assets/img/bsv-44-open-ico.png',
   },
   {
     id: 4,
@@ -42,6 +46,7 @@ export const products = [
     description: 'professional vacuum machines fit for any type of use.',
     type: Tag.BSV,
     availability: 1,
+    img:'./assets/img/bsv-44s-open-ico.png',
   },
   {
     id: 5,
@@ -50,6 +55,7 @@ export const products = [
     description: 'professional vacuum machines fit for any type of use.',
     type: Tag.BSV,
     availability: 7,
+    img:'./assets/img/bsv-45-open-ico.png',
   },
   {
     id: 6,
@@ -58,6 +64,7 @@ export const products = [
     description: 'professional vacuum machines fit for any type of use.',
     type: Tag.BSV,
     availability: 4,
+    img:'./assets/img/bsv-45-open-ico.png',
   },
   {
     id: 7,
@@ -66,6 +73,7 @@ export const products = [
     description: 'professional vacuum machines fit for any type of use.',
     type: Tag.BSV,
     availability: 5,
+    img:'./assets/img/bsv-54-open-ico.png',
   },
   {
     id: 8,
@@ -74,6 +82,7 @@ export const products = [
     description: 'professional vacuum machines fit for any type of use.',
     type: Tag.BSV,
     availability: 1,
+    img:'./assets/img/bsv-94-open-ico.png',
   },
   {
     id: 9,
@@ -82,5 +91,6 @@ export const products = [
     description: 'professional vacuum machines fit for any type of use.',
     type: Tag.CSV,
     availability: 1,
+    img:'./assets/img/csv-42-ico.png',
   },
 ];
